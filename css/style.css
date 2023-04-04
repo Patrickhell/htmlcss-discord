@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    background-size: contain;
+}
+.opzioni-nav{
+    color: white;
+    font-size: 13px;
+    justify-content: space-around;  
+}
+.upper{
+   align-items: center;
+   justify-content: space-around;
+   padding-top: 11px;
+}
+ul{
+    list-style-type: none;
+}
+div.logo, div.login{
+    width: 10%;
+
+}
+nav.barra-nav{
+    width: 50%;
+}
+ ul li{
+    margin-right: .1rem;
+ }
+ .img{
+    width: 90px;
+ }
+ .login{
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    border: none;
+ }
+ .color-testo{
+    color: white;  
+ }
+ .titolo{
+    text-align: center;
+    margin-top:6%;
+    font-size: 35px;
+ }
+ .testo{
+    width:45%;
+    font-size:13px ;
+    margin: auto;
+    text-align: center;
+    margin-top:20px;
+    
+ }
+.scelta-task{
+    margin-left: 38%;
+    margin-top: 30px
+   
+} 
+.task{
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 20px;
+
+}
+.task-mac{
+    width: 140px;
+}
+.task-browser{
+    width: 200px;
+    background-color: black;
+}
